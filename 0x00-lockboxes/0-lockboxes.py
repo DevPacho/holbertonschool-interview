@@ -20,11 +20,11 @@ def canUnlockAll(boxes):
     """ Method that determines if all the boxes can be opened. """
 
     unlocked = [0]
-    for box_index, box in enumerate(boxes):
+    for box_idx, box in enumerate(boxes):
         if not box:
             continue
         for key in box:
-            if key < len(boxes) and key not in unlocked and key != box_index:
+            if key < len(boxes) and key not in unlocked and key != box_idx:
                 unlocked.append(key)
     if len(unlocked) == len(boxes):
         return True
