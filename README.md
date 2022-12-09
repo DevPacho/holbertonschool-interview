@@ -1,2 +1,2 @@
-# holbertonschool-interview
-🤔💻❓ Possible interview tests
+# Interviews! 🤔💻❓
+This repo contains practices for technical interviews
